@@ -1,0 +1,10 @@
+{
+  "resourceName": "flowersDbDynamo",
+  "tableName": "flowers",
+  "partitionKey": {
+    "fieldName": "flowerId",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

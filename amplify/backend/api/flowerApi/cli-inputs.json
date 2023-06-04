@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "paths": {
+    "/flowers": {
+      "name": "/flowers",
+      "lambdaFunction": "flowersFunc",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "resourceName": "flowersImg",
+  "policyUUID": "4e3d6260",
+  "bucketName": "flowers",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "groupAccess": {},
+  "triggerFunction": "S3Trigger10b2669a"
+}
